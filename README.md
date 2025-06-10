@@ -23,7 +23,17 @@ git clone https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
 
 pip install -r requirements/requirements-convert_hf_to_gguf.txt
+çalıştırmak için:
+python3 convert_hf_to_gguf.py \
+  /tam/yol/merged_model \
+  --outfile /tam/yol/phi4-finetuned-cpu.gguf \
+  --outtype q4_k_m
 
+Bu şekilde elimizdeki merged-model phi4-finetuned-cpu.gguf isminde bir gguf modeline dönüşüyor.
+-------------
+
+5-export_and_upload_gguf.py
+Çıkan modeli hugginfacee yükleme işlemleri de bu şekilde yapılır.
 
 
 
