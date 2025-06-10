@@ -29,7 +29,9 @@ python3 convert_hf_to_gguf.py \
   --outfile /tam/yol/phi4-finetuned-cpu.gguf \
   --outtype q4_k_m
 
-Bu şekilde elimizdeki merged-model phi4-finetuned-cpu.gguf isminde bir gguf modeline dönüşüyor.
+  Bu şekilde elimizdeki merged-model phi4-finetuned-cpu.gguf isminde bir gguf modeline dönüşüyor.
+
+
 -------------
 
 5-export_and_upload_gguf.py
