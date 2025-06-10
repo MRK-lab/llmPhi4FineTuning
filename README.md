@@ -13,8 +13,11 @@ Burada modeli hugginface gguf formatında yükleyerek ve tek bir model olarak y�
 -------------
 GGUF formatına dönüştürme
 gereksinimler:
+
 git clone https://github.com/ggerganov/llama.cpp.git
+
 cd llama.cpp
+
 pip install -r requirements/requirements-convert_hf_to_gguf.txt
 
 
